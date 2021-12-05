@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+  .text {
+    font-size: 32px;
+  }
+}
 .scroll-suggest {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/scroll-suggest.svg") no-repeat center center;
   width: 13px;
