@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
   .text {
     font-size: 32px;
+    letter-spacing: 1.5px;
   }
 }
 .scroll-suggest {
