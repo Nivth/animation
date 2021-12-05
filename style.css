@@ -1,0 +1,47 @@
+.scroll-suggest {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/scroll-suggest.svg") no-repeat center center;
+  width: 13px;
+  height: 19px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+}
+.text {
+  fill: #fff;
+  font-size: 22px;
+  white-space: nowrap;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+}
+.text--label {
+  font-size: 13px;
+}
+.svg-container {
+  padding-bottom: 70.3125%;
+  position: relative;
+}
+.svg-container__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.svg-container__content svg {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: #8fbe00;
+  display: none;
+}
+body.is-loaded {
+  display: block;
+}
+body,
+html {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
